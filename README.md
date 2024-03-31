@@ -1,0 +1,1 @@
+Personal NVim (NvChad) config.

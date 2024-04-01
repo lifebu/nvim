@@ -76,5 +76,12 @@ local plugins = {
       },
     },
   },
+  {
+    "nvim-treesitter/nvim-treesitter-context",
+    lazy=false,
+    requires = {
+        "nvim-treesitter/nvim-treesitter"
+    },
+  }
 }
 return plugins

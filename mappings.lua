@@ -26,6 +26,9 @@ M.general = {
 
     -- ClangD
     ["<leader>sh"] = { "<cmd> ClangdSwitchSourceHeader<CR>", "Switch source header" },
+
+    -- Treesitter-Context
+    ["<leader>ct"] = { "<cmd> TSContextToggle<CR>", "Context Toggle" },
   }
 }
 

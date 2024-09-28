@@ -11,3 +11,7 @@ lspconfig.clangd.setup {
   end,
   capabilities = capabilities,
 }
+
+lspconfig.zls.setup {
+
+}

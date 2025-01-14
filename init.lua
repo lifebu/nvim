@@ -11,3 +11,6 @@ opt.softtabstop = 4
 
 -- Numbers
 vim.wo.relativenumber = true
+
+-- Disable zig auto safe.
+vim.g.zig_fmt_autosave = 0

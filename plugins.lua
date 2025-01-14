@@ -1,4 +1,21 @@
 local plugins = {
+    -- {
+    --     "zbirenbaum/copilot.lua",
+    --     cmd = "Copilot",
+    --     config = function ()
+    --         require("copilot").setup({
+    --             suggestion = { enabled = false },
+    --             panel = { enabled = false },
+    --         })
+    --     end,
+    --     event="InsertEnter",
+    -- },
+    -- {
+    --     "zbirenbaum/copilot-cmp",
+    --     config = function ()
+    --         require("copilot_cmp").setup()
+    --     end,
+    -- },
     {
         "christoomey/vim-tmux-navigator",
         lazy=false,
@@ -52,7 +69,10 @@ local plugins = {
         "mfussenegger/nvim-dap",
         config = function(_, _)
             require("core.utils").load_mappings("dap")
-        end
+        end,
+        opts = {
+            autoformat = false
+        },
     },
     {
         "neovim/nvim-lspconfig",

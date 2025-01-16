@@ -12,4 +12,5 @@ vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "(f)
 vim.keymap.set("n", "<leader>fc", function() require("telescope.builtin").find_files { cwd = vim.fn.stdpath("config") } end, { desc = "(f)ind (c)onfig" })
 
 -- Which-key
-vim.keymap.set("n", "<leader>wk", function() vim.cmd "WhichKey" end, { desc = "(w)hich (k)ey" })
+vim.keymap.set("n", "<leader>wk", function() vim.cmd("WhichKey") end, { desc = "(w)hich (k)ey" })
+

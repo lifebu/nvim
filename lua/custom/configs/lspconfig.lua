@@ -15,3 +15,5 @@ lspconfig.clangd.setup {
 lspconfig.zls.setup {
 
 }
+
+lspconfig.glsl_analyzer.setup{}

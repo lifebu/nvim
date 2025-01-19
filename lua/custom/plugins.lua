@@ -89,6 +89,7 @@ local plugins = {
                 "clang-format",
                 "codelldb",
                 "zls",
+                "glsl_analyzer",
             }
         }
     },
@@ -104,6 +105,7 @@ local plugins = {
                 -- dev
                 "cpp",
                 "zig",
+                "glsl",
             },
         },
     },

@@ -13,7 +13,12 @@ lspconfig.clangd.setup {
 }
 
 lspconfig.zls.setup {
-
+    settings = {
+        zls = {
+            semantic_tokens = "partial",
+            enable_build_on_save = true,
+        }
+    }
 }
 
 lspconfig.glsl_analyzer.setup{}

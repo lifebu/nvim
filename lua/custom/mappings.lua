@@ -12,6 +12,7 @@ M.general = {
     ["<leader>fs"] = { "<cmd> Telescope<CR>", "Find search" },
     ["<leader>fc"] = { "<cmd> Telescope grep_string<CR>", "Find under cursor" },
     ["<leader>fd"] = { "<cmd> Telescope lsp_definitions<CR>", "Find definition" },
+    ["<leader>fe"] = { "<cmd> Telescope diagnostics<CR>", "Find error" },
     ["<leader>fi"] = { "<cmd> Telescope lsp_implementations<CR>", "Find implementation" },
     ["<leader>fr"] = { "<cmd> Telescope lsp_references<CR>", "Find references" },
     ["<leader>ft"] = { "<cmd> Telescope lsp_type_definitions<CR>", "Find type" },

@@ -25,6 +25,14 @@ M.general = {
     ["<leader>sa"] = { "<cmd> Telescope treesitter<CR>", "Symbols all" },
     ["<leader>sw"] = { "<cmd> Telescope lsp_workspace_symbols<CR>", "Symbols workspace" },
 
+    -- Goto
+    ["<leader>gn"] = {
+      function()
+        vim.diagnostic.goto_next()
+      end,
+      "Goto next",
+    },
+
     -- ClangD
     ["<leader>sh"] = { "<cmd> ClangdSwitchSourceHeader<CR>", "Switch source header" },
 
